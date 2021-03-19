@@ -3,7 +3,7 @@ const Header = () => {
         <nav className='green darken-1'>
             <div className='nav-wrapper'>
                 <a
-                    href='https://allevchenko.ru/react-shop/'
+                    href='https://allevchenko.ru/react-app-shop/'
                     className='brand-logo'
                 >
                     React Shop Fortnite
