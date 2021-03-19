@@ -3,14 +3,16 @@ const Header = () => {
         <nav className='green darken-1'>
             <div className='nav-wrapper'>
                 <a
-                    href='https://github.com/ALevkas/react-shop'
+                    href='https://allevchenko.ru/react-shop/'
                     className='brand-logo'
                 >
-                    Shop fortnite
+                    React Shop Fortnite
                 </a>
                 <ul id='nav-mobile' className='right hide-on-med-and-down'>
                     <li>
-                        <a href='https://github.com/ALevkas/'>My other app</a>
+                        <a href='https://github.com/ALevkas/'>
+                            My others app in github page.
+                        </a>
                     </li>
                 </ul>
             </div>

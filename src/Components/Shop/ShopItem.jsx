@@ -19,8 +19,8 @@ export const ShopItem = (props) => {
                 >
                     Купить
                 </button>
-                <span className='right' style={{ fontSize: '1.8rem' }}>
-                    {price} руб.
+                <span className='right' style={{ fontSize: '1.2rem' }}>
+                    {price} v-bucks.
                 </span>
             </div>
         </div>

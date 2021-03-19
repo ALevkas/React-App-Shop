@@ -43,8 +43,8 @@ nav {
 }
 .cart {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    top: 0px;
+    right: 1.3rem;
 
     cursor: pointer;
     z-index: 5;

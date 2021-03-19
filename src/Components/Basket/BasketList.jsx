@@ -24,7 +24,7 @@ export const BasketList = (props) => {
                 <li className='collection-item'>Упс, здесь пока пусто</li>
             )}
             <li className='collection-item active'>
-                Общая стоимость: {totalPrice} рублей.
+                Общая стоимость: {totalPrice} v-bucks.
             </li>
             <li className='collection-item'>
                 <button className='btn-small'>Оформить</button>
