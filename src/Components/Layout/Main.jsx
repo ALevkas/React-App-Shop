@@ -1,11 +1,14 @@
 import { Shop } from '../Shop/Shop';
+import { ContextProvider } from '../../context';
 
-const Main = () => {
+export const Main = () => {
     return (
         <main className='container content'>
-            <Shop />
+            {
+                <ContextProvider>
+                    <Shop />
+                </ContextProvider>
+            }
         </main>
     );
 };
-
-export { Main };

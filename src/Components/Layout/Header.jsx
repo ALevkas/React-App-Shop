@@ -1,4 +1,4 @@
-const Header = () => {
+export const Header = () => {
     return (
         <nav className='green darken-1'>
             <div className='nav-wrapper'>
@@ -19,5 +19,3 @@ const Header = () => {
         </nav>
     );
 };
-
-export { Header };

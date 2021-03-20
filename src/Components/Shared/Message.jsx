@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
+import { ShopContext } from '../../context';
 
-export const Message = (props) => {
-    const { name } = props;
+export const Message = () => {
+    const { messageName: name, closeMessage } = useContext(ShopContext);
 
     useEffect(() => {
-        const timerId = setTimeout(props.closeMessage, 3000);
+        const timerId = setTimeout(closeMessage, 3000);
 
         return () => {
             clearTimeout(timerId);

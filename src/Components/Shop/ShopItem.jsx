@@ -1,5 +1,10 @@
+import { useContext } from 'react';
+import { ShopContext } from '../../context';
+
 export const ShopItem = (props) => {
     const { id, name, description, price, full_background } = props;
+
+    const { addOrder } = useContext(ShopContext);
 
     return (
         <div className='card card-shop' id={id}>
@@ -14,7 +19,7 @@ export const ShopItem = (props) => {
                 <button
                     className='btn'
                     onClick={() => {
-                        props.addOrder({ id, name, price });
+                        addOrder({ id, name, price });
                     }}
                 >
                     Купить
